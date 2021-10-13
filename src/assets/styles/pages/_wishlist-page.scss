@@ -1,0 +1,26 @@
+.wishlist-page{
+    // background-color: lightcoral;
+
+    margin: 20vh auto;
+    a{
+        color: #222222;
+    }
+
+    // h1{
+    //     grid-column: 2;
+    // }
+    p{ 
+        // font-size: 15px;
+        font-weight: 10;
+        span{
+         cursor: pointer;
+        }
+    }
+
+    h1 {
+        font-family: Circular-bold;
+        font-size: 36px;
+        margin: 0.5% 0 2%;
+
+    }
+}

@@ -1,0 +1,66 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+
+// Basics
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/links';
+@import 'basics/forms';
+
+// Components
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+@import 'cmps/user-msg';
+@import 'cmps/stay-list';
+@import 'cmps/stay-preview';
+@import 'cmps/review-preview';
+@import 'cmps/add-review';
+@import 'cmps/review-list';
+@import 'cmps/order-list';
+@import 'cmps/order-preview';
+@import 'cmps/order-form';
+@import 'cmps/star-rating';
+@import 'cmps/stay-map';
+@import 'cmps/add-stay';
+@import 'cmps/details-header';
+@import 'cmps/host-stays-list.scss';
+@import 'cmps/host-orders-list.scss';
+@import 'cmps/host-header.scss';
+@import 'cmps/login-modal.scss';
+
+// @import 'cmps/img-slider';
+@import 'cmps/img-slider-test';
+@import 'cmps/search';
+@import 'cmps/date-range';
+@import 'cmps/guests-modal';
+@import 'cmps/loader.scss';
+@import 'cmps/drop-down-city.scss';
+@import 'cmps/drop-down-stay-type.scss';
+@import 'cmps/drop-down-stay-price.scss';
+@import 'cmps/drop-down-property-type.scss';
+@import 'cmps/drop-down-amenities.scss';
+@import 'cmps/amenities';
+@import 'cmps/host-stays-list.scss';
+@import 'cmps/add-stay.scss';
+@import 'cmps/host-rates.scss';
+@import 'cmps/wish-list.scss';
+@import 'cmps/wishlist-preview.scss';
+@import 'cmps/notifications.scss';
+
+// Pages
+@import 'pages/home-page';
+@import 'pages/about-us';
+@import 'pages/review-app';
+@import 'pages/stay-app';
+@import 'pages/stay-details';
+@import 'pages/login-page';
+@import 'pages/explore-page.scss';
+@import 'pages/account-page.scss';
+@import 'pages/order-page.scss';
+@import 'pages/host-page.scss';
+@import 'pages/wishlist-page.scss';
+@import 'pages/become-host.scss';

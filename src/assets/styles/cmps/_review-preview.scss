@@ -1,0 +1,38 @@
+.review-preview {
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    div {
+      margin-top: 11px;
+    }
+    h3 {
+      font-family: Circular;
+      font-size: 16px;
+      line-height: 20px;
+      color: #222222;
+      margin-bottom: 3px;
+    }
+    h4 {
+      font-family: Circular-light;
+      font-size: 14px;
+      line-height: 20px;
+      color: #717171;
+    }
+
+    img {
+      object-fit: cover;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+  }
+  .review-content {
+    font-family: Circular-light;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+  }
+}

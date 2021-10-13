@@ -1,0 +1,106 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+
+  > * {
+    grid-column: 2;
+
+    &.full {
+      grid-column: 1 /-1;
+    }
+  }
+
+  @include for-narrow-layout {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      minmax(auto, $mobile-breakpoint)
+      minmax(20px, 1fr);
+  }
+  @include for-normal-layout {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      minmax(auto, $narrow-breakpoint)
+      minmax(20px, 1fr);
+  }
+  @include for-large-layout {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      minmax(auto, $normal-breakpoint)
+      minmax(20px, 1fr);
+  }
+  @include for-wide-layout {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      minmax(auto, $large-breakpoint)
+      minmax(20px, 1fr);
+  }
+  @include for-extraLarge-layout {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      minmax(auto, $wide-breakpoint)
+      minmax(20px, 1fr);
+  }
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+
+  > * {
+    grid-column: 2;
+
+    // &.full {
+    //   grid-column: 1 /-1;
+    // }
+  }
+
+  @include for-details-mobile-layout {
+    grid-template-columns:
+      minmax(0.5rem, 1fr)
+      minmax(auto, $mobile-details-breakpoint)
+      // minmax(auto, 350px)
+      minmax(0.5rem, 1fr);
+  }
+  @include for-details-narrow-layout {
+    grid-template-columns:
+      minmax(0.5rem, 1fr)
+      minmax(auto, $mobile-details-breakpoint)
+      minmax(0.5rem, 1fr);
+  }
+  @include for-details-normal-layout {
+    grid-template-columns:
+      minmax(2rem, 1fr)
+      minmax(auto, $narrow-details-breakpoint)
+      minmax(2rem, 1fr);
+  }
+  @include for-details-large-layout {
+    grid-template-columns:
+      minmax(2rem, 1fr)
+      minmax(auto, $normal-details-breakpoint)
+      minmax(2rem, 1fr);
+  }
+  @include for-details-wide-layout {
+    grid-template-columns:
+      minmax(5rem, 1fr)
+      minmax(auto, $large-details-breakpoint)
+      minmax(5rem, 1fr);
+  }
+  @include for-details-extraLarge-layout {
+    grid-template-columns:
+      minmax(5rem, 1fr)
+      minmax(auto, $large-details-breakpoint)
+      minmax(5rem, 1fr);
+  }
+}
+
+// $mobile-details-breakpoint: 460px;
+// $narrow-details-breakpoint: 730px;
+// $normal-details-breakpoint: 932px;
+// $large-details-breakpoint: 1110px;
+// $wide-details-breakpoint: 1110px;

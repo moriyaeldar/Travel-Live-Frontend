@@ -1,0 +1,23 @@
+ [
+    {
+        "_id": "u101",
+        "fullname": "User 1",
+        "imgUrl": "/img/img1.jpg",
+        "isHost": false,
+        "username": "user1",
+        "password": "secret",
+        "email": "sara@amcon.com",
+        "orders": [], 
+        "stays":[]  
+        
+    },
+    {
+        "_id": "u102",
+        "fullname": "User 2",
+        "imgUrl": "/img/img2.jpg",
+        "isHost": false,
+        "username": "user2",
+        "password": "secret",
+        "email": "yaacov@alef.com"
+    }
+]

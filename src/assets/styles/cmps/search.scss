@@ -1,0 +1,21 @@
+.search{
+    // background-color: aquamarine;
+    position: absolute;
+    top: 9.5rem;
+    left: 25%;
+    // width: 100vw;
+    z-index: 1;
+    border-radius: 13px;
+}
+
+.rdrDefinedRangesWrapper{
+    display: none;
+}
+
+.rdrCalendarWrapper, .rdrDateRangeWrapper{
+    border-radius: 13px;
+}
+
+.rdrNextPrevButton, .rdrNextButton{
+    background-color: unset;
+}

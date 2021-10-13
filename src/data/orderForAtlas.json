@@ -1,0 +1,96 @@
+
+
+[
+
+    {
+      
+        "createdAt": "9898989",
+        "totalPrice": "2000",
+        "checkIn": "Sun Oct 06 2022",
+        "checkOut" :"Mon Oct 30 2022",
+        "guests": "2",
+        "status": "pending",
+        "user": {
+            "_id": "615705a3d617cdb08c1151db",
+            "fullname": "Joseph Thomas"
+        },
+        "host": {
+            "_id": "615705a3d617cdb08c1151d3",
+            "fullname": "David Levi"
+        },
+        "stay": {
+            "_id": "6156dc22d617cdb08c04fd29",
+            "title": "Superb 1 Bedroom in The W Residences Downtown",
+            "price": "1000",
+            "imgUrls":[
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/7aae78ce-3b34-461c-998a-0f88444b49ac.JPEG",
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/6ebacbac-7c5f-4e0d-99b6-430ff1cc86f2.JPEG",
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/307196fa-ef88-441d-8ad2-7559c8e659c2.JPEG"
+
+            ]
+        }
+        
+    },
+    {
+       
+        "createdAt": "9898989",
+        "totalPrice": "2000",
+        "checkIn": "Sun Oct 06 2022",
+        "checkOut" :" Mon Oct 30 2022",
+        "guests": 2,
+        "status": "pending",
+        "user": {
+            "_id": "615705a3d617cdb08c1151dc",
+            "fullname": "Sandra Hughes"
+        },
+        "host": {
+            "_id": "615705a3d617cdb08c1151d3",
+            "fullname": "David Levi"
+        },
+        "stay": {
+            "_id": "6156dc22d617cdb08c04fd29",
+            "title": "Superb 1 Bedroom in The W Residences Downtown",
+            "price": "1000",
+            "imgUrls":[
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/7aae78ce-3b34-461c-998a-0f88444b49ac.JPEG",
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/6ebacbac-7c5f-4e0d-99b6-430ff1cc86f2.JPEG",
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/307196fa-ef88-441d-8ad2-7559c8e659c2.JPEG"
+
+            ]
+        }
+        
+    },
+    {
+       
+        "createdAt": 9898989,
+        "totalPrice": 2000,
+        "checkIn": "Sun Oct 06 2022",
+        "checkOut" : "Mon Oct 30 2022",
+        "guests": 2,
+        "status": "pending",
+        "user": {
+            "_id": "615705a3d617cdb08c1151dd",
+            "fullname": "Edna Levi"
+        },
+        "host": {
+            "_id": "615705a3d617cdb08c1151d3",
+            "fullname": "David Levi"
+        },
+        "stay": {
+            "_id": "6156dc22d617cdb08c04fd29",
+            "title": "Superb 1 Bedroom in The W Residences Downtown",
+            "price": "1000",
+            "imgUrls":[
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/7aae78ce-3b34-461c-998a-0f88444b49ac.JPEG",
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/6ebacbac-7c5f-4e0d-99b6-430ff1cc86f2.JPEG",
+                "https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39103956-unapproved/original/307196fa-ef88-441d-8ad2-7559c8e659c2.JPEG"
+
+            ]
+        }
+        
+    }
+
+
+
+
+]

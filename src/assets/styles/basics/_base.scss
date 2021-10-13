@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 14px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #74727263;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(rgb(238, 238, 238),0.1);
+  border-radius: 100vw;
+
+}
+
+body {
+  font-size: rem(16px);
+  margin: 0;
+  font-family: Circular;
+  color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.6em;
+  line-height: 1;
+  color: #222222;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0 0;
+}
+
+a {
+  text-decoration: none;
+}

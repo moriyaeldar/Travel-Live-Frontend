@@ -1,0 +1,68 @@
+.drop-down-stay-price {
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    // transform: translate(-50%);
+    z-index: 20;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.13);
+    padding: 0px 10px 10px 10px;
+    border-radius: 13px;
+    width: 335px;
+    @include for-normal-layout {
+        width: 380px;
+        left: unset;
+        transform: unset;
+        top: 30%;
+    }
+    @include for-large-layout {
+        top: 38%;
+    }
+    @include for-wide-layout {
+        top: 40%;
+    }
+    @include for-extraLarge-layout {
+        width: 380px;
+        top: 29%;
+    }
+   
+    // width: 100px;
+
+    // @include for-narrow-layout {
+    //     width: 10px;
+    // }
+}
+
+.price-range {
+    // background-color: aquamarine;
+    padding: 10px;
+    display: inline-block;
+    width: 130px;
+    font-size: 13px;
+
+    &.price-max {
+        margin-left: 30px;
+        // box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.13);
+        border: grey 1px solid;
+        border-radius: 13px;
+        // width: 150px;
+    }
+
+    &.price-min {
+        margin-left: 8px;
+        // box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.13);
+        border: grey 1px solid;
+        border-radius: 13px;
+        // width: 150px;
+    }
+
+    @include for-normal-layout {
+        width: 150px;
+        font-size: 16px;
+    }
+    @include for-extraLarge-layout {
+        width: 150px;
+        font-size: 16px;
+    }
+}

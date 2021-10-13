@@ -1,0 +1,51 @@
+.wishlist-preview{
+    // background-color: lightgreen;
+
+    font-family: Circular-book, sans-serif;
+  
+    font-size: 16px;
+@include aspect-ratio(1, 1);
+
+    .svg-inline--fa {
+        display: inline-block;
+        font-size: 12px;
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
+    }
+
+    p {
+        // font-size: 15.75px;
+        line-height: 1.0625rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding-bottom: 5px;
+    }
+    .prev-rev-txt {
+        font-size: 14.0625px;
+    }
+
+    >div{
+        display: flex;
+        flex-direction: column;
+
+        >.container{
+            flex-grow: 1;
+        }
+
+    }
+
+    .preview-content{
+        height: 100px;
+    }
+}
+
+.stay-preview-save-btn .svg-inline--fa{
+    // font-size: 1.125rem;
+    font-size: 20px;
+    // @include for-extraLarge-layout {    
+    //     font-size: 18px;
+    //  }
+    
+}

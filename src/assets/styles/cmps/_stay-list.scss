@@ -1,0 +1,13 @@
+.stay-list {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    // align-items: center;
+    // justify-items: center;
+    grid-gap: 17px;
+    gap: 17px;
+    grid-column: 2;
+    a{
+        color:#222222
+    }
+}

@@ -1,0 +1,23 @@
+.review-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px 145px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include for-details-mobile-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  @include for-details-narrow-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include for-details-normal-layout {
+  }
+  @include for-details-large-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

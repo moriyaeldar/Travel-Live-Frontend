@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "o1225",
+        "createdAt": 9898989,
+        "totalPrice": 2000,
+        "status": "pending",
+        "user": {
+            "_id": "u101",
+            "fullname": "User1"
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Or Dotan"
+        },
+        "stay": {
+            "_id": "v102",
+            "name": "The great castle",
+            "price": "1000"
+        }
+        
+    }
+]

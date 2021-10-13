@@ -1,0 +1,50 @@
+
+    
+
+     [
+        {
+            "_id": "s101",
+            "title": "the great castle",
+            "desc": "this is an amazing place",
+            "amenities":["TV", "Wifi", "Kitchen", "Pets allowed","Cooking basics"],
+            "imgUrls": [
+                "shop.jpg",
+                "more1.jpg",
+                "more2.jpg"
+            ],
+            "host": {
+                "_id": "u101",
+                "fullname": "John Smith",
+                "imgUrl": "/img/img1.jpg"
+            },
+            "loc": {
+                "country": "Portugal",
+                "countryCode": "PT",
+                "address": "Porto,Portugal",
+                "lat": -8.61308,
+                "lng": 41.1413
+            },
+            "reviews": [
+                {
+                    "id": "r103",
+                    "txt": "a great place to dine..",
+                    "rate": 4,
+                    "ratings": {
+                        "avg": 4.5 ,
+                        "cleanliness":3.2,
+                        "communication ":4.3,
+                        "check-in ":4.7,
+                        "accuracy ":2.3,
+                        "location ":4.9,
+                        "value ":3.9
+                        },
+                    "by": {
+                        "_id": "u102",
+                        "fullname": "David Levi",
+                        "imgUrl": "/img/img2.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+    

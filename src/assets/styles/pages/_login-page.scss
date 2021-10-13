@@ -1,0 +1,112 @@
+.login-page {
+  .login-page-container {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-top: 10vh;
+    // left: 0;
+    // right: 0;
+    // top: 0;
+    // bottom: 0;
+    // width: 350px;
+
+    border-radius: 13px;
+    .login-form {
+      border: 1px solid #dbdbdb;
+      width: 30vw;
+      margin: 14vh auto;
+      border-radius: 13px;
+    }
+    .login-header {
+      text-align: center;
+      padding: 15px 20px;
+      border-bottom: 1px solid #dbdbdb;
+    }
+    .login-content {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+
+      h1 {
+        align-self: flex-start;
+        padding-bottom: 25px;
+        color: #484848;
+        font-size: 1.5rem;
+        font-weight: unset;
+      }
+      input {
+        border: 1px solid #b6b6b6;
+        padding: 20px;
+        width: 100%;
+      }
+      input:not(:last-of-type) {
+        border-bottom: transparent;
+      }
+
+      input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+      }
+      input:first-of-type {
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+      }
+      input:last-of-type {
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+      }
+
+      .login-btn {
+        width: 100%;
+        border-radius: 13px;
+        background-color: #ff385c;
+        padding: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        text-transform: capitalize;
+      }
+    }
+    .login-form-actions {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      button {
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        color: #484848;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+    }
+
+    @include for-mobile-layout {
+      .login-form {
+        width: 80vw;
+      }
+    }
+    @include for-narrow-layout {
+      .login-form {
+        width: 60vw;
+      }
+    }
+
+    @include for-normal-layout {
+      .login-form {
+        width: 50vw;
+      }
+    }
+    @include for-large-layout {
+      .login-form {
+        width: 30vw;
+      }
+    }
+    // @include for-wide-layout {
+    //   .login-form {
+    //     width: 30vw;
+    //   }
+    // }
+  }
+}

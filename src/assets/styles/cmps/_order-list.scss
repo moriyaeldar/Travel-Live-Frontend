@@ -1,0 +1,10 @@
+.order-list{
+margin-top:6vh;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+gap: 17px;
+// margin-inline-start: 6%;
+}
+
+
+

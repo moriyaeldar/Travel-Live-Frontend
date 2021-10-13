@@ -1,0 +1,222 @@
+.slider-img {
+    background-color: aquamarine;
+    margin: auto;
+    display: inline;
+    width: 100px;
+}
+
+.container {
+    padding: 20px;
+    background: #419be0;
+    width: 500px;
+}
+
+.slick-slide {
+    h3 {
+        margin: auto;
+        display: inline;
+        width: 100px;
+    }
+}
+.slick-slider {
+    button {
+        background-color: transparent;
+        color: black;
+    }
+}
+// .slick-slider {
+//     width: 600px;
+//     &.slick-initialized {
+//         display: flex;
+//         // flex-direction: column;
+//     }
+// }
+// .slick-next:before {
+//     content: "→";
+//     color: black;
+// }
+// .slick-next:before, .slick-prev:before {
+//     font-family: "slick";
+//     font-size: 20px;
+//     line-height: 1;
+//     opacity: .75;
+//     color: #fff;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+// }
+// .main-slider {
+//     display: flex;
+
+// }
+
+// h3 {
+//     background: #00558B;
+//     color: #fff;
+//     font-size: 36px;
+//     line-height: 100px;
+//     margin: 10px;
+//     padding: 2%;
+//     position: relative;
+//     text-align: center;
+//   }
+  .variable-width .slick-slide p {
+    background: #00558B;
+    height: 100px;
+    color: #fff;
+    margin: 5px;
+    line-height: 100px;
+    text-align: center;
+  }
+  .center .slick-center h3 {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  .center h3{
+    opacity: 0.8;
+    transition: all 300ms ease;
+  }
+  .content {
+    padding: 20px;
+    margin: auto;
+  }
+  @media (min-width: 701px) {
+    .content {
+      width: 80%;
+    }
+  }
+  @media (max-width: 700px) {
+    .content {
+      width: 70%;
+    }
+  }
+  .slick-slide .image {
+    padding: 10px;
+  }
+  .slick-slide img {
+      width: 100%;
+    // border: 5px solid #FFF;
+    // display: inline-block;
+    // margin: auto;
+    // max-width: 30%
+  }
+  .slick-slide img.slick-loading {
+    border: 0
+  }
+//   .slick-slider {
+    // margin: 30px auto 50px;
+  
+//   }
+  .slick-dots {
+    margin-left: 0;
+  }
+  .slick-thumb {
+    bottom: -45px;
+  }
+  .slick-thumb li {
+    width: 60px;
+    height: 45px;
+  }
+  .slick-thumb li img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+  }
+  .slick-thumb li.slick-active img{
+      filter: grayscale(0%);
+  }
+  @media (max-width: 768px) {
+    h3 {
+      font-size:24px;
+    }
+    .center {
+      margin-left: -40px;
+      margin-right: -40px;
+    }
+    .center .slick-center h3 {
+      color: #e67e22;
+      opacity: 1;
+      transform: scale(1);
+    }
+    .center h3 {
+      opacity: 0.8;
+      transform: scale(0.95);
+      transition: all 300ms ease;
+    }
+  }
+  .slick-vertical .slick-slide {
+    height: 180px;
+  }
+  .slick-arrow {
+    background-color: grey;
+  }
+  .slick-arrow:hover {
+    background-color: grey;
+  }
+  .slick-arrow:focus {
+    background-color: grey;
+  }
+  .button {
+    background-color: #00558B;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    border: none;
+    color: white;
+    // font-size: 30px;
+    border-radius: 5px;
+    min-height: 45px
+  }
+
+  .slick-track{
+      display: flex;
+    width: 2000px;
+      opacity: 1;
+      transform: translate3d(0px, 0px, 0px);
+  }
+
+//   div.slider-img-div{
+//       width: 100%;
+//       display: inline;
+//       border: black 1px solid;
+//   }
+
+  div.slick-slide.slick-active.slick-current{
+      width: 500px;
+  }
+  
+
+  .slick-prev:before, .slick-next:before{
+      position: relative;
+    //   right: 20px;
+      font-size: 30px;
+  }
+  .slick-next:before{
+    right: 30px;
+  }
+  .slick-prev:before{
+    right: 5px;
+  }
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: .75;
+    // position:fixed;
+    margin-inline-start: 10px;
+    z-index: 10;
+    font-size: 30px;
+
+}
+
+.slick-arrow:hover {
+    background-color: transparent;
+}
+.slick-prev:after{
+    right: 10px;
+    font-size: 30px;
+}
+// .slick-prev:before {
+//     // position: absolute;
+//     left: 10px;
+//     // z-index: 2;
+//     opacity: .75;
+//     font-size: 30px;
+// }

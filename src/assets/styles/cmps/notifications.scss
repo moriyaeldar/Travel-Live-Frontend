@@ -1,0 +1,33 @@
+.notifications {
+  margin-top: 120px;
+  font-size: 14px;
+  font-family: Circular-light;
+margin-left: 23%;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 33px;
+  }
+
+  .notifi {
+    height: 70px;
+    width: 650px;
+    display: flex;
+    gap:12px;
+    padding-top: 5px;
+  }
+  .notifi:not(:last-child) {
+    border-bottom: 1px solid #2222223b;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  .notifi-txt{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .notRead{
+    font-family: Circular-bold;
+  }
+}

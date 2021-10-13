@@ -1,0 +1,29 @@
+.user-msg {
+    color:#222222;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    position: fixed;
+    top:0;
+    right:0;
+    background-color:white;
+    z-index: 20;
+    font-family: Circular-book;
+border-radius: 20px;
+box-shadow:1px 1px 1px 1px #2222221f;
+transform: translateY(650px);
+}
+.user-msg button {
+    background-color: white;
+    width: 1px;
+}
+
+.user-msg.success {
+    border-style: solid;
+    border-color: rgba(41, 189, 73, 0.342)
+}
+
+.user-msg.danger {
+    border-style: solid;
+   border-color: rgba(216, 59, 59, 0.521);
+}

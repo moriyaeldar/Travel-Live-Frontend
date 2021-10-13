@@ -1,0 +1,48 @@
+.become-host {
+  margin-top: 85px;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  button{
+    background-image: radial-gradient(
+      circle at center,
+      #ff385c 0%,
+      #e61e4d 25%,
+      #e31c5f 50%,
+      #c4005b 75%,
+      #bd1e59 100%
+    );
+    height: 49px;
+    margin: 15px 0 0 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    background-size: 130% 130%;
+  }
+  .become-txt {
+    background-color: black;
+    width: 55%;
+    height: 100%;
+
+    .txt {
+      height: 100%;
+
+      padding: 26%;
+      h1 {
+        font-size: 2.5rem;
+        color: white;
+      }
+    }
+  }
+  .become-img {
+    width: 45%;
+    height: 100%;
+  }
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
+}

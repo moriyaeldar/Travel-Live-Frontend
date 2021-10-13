@@ -1,0 +1,125 @@
+.details-header-container {
+  width: 100%;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.09);
+  padding-top: 5px;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  height: 80px;
+
+  z-index: 200;
+  .details-header {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      list-style-type: none;
+    }
+    .details-header-nav {
+      display: flex;
+      gap: 25px;
+      a {
+        font-size: 14px;
+        font-family: Circular;
+        line-height: 20px;
+        color: #222222;
+      }
+    }
+    .mini-form {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+
+      .mini-form-details {
+        display: flex;
+        flex-direction: column;
+
+        .mini-order-header-price {
+          font-size: 18px;
+          line-height: 24px;
+          color: #222222;
+          font-family: Circular;
+        }
+        .mini-order-text {
+          font-size: 14px;
+          line-height: 18px;
+          color: #222222;
+          font-family: Circular-light;
+        }
+
+        .mini-stay-rate {
+          display: flex;
+          gap: 3px;
+          .star {
+            font-size: 14px;
+            line-height: 18px;
+            color: #222222;
+            font-family: Circular;
+            color: #ff385c;
+          }
+          .mini-reviews-avg {
+            font-size: 12px;
+            line-height: 16px;
+            color: #222222;
+            font-family: Circular;
+          }
+          .mini-reviews-num {
+            font-size: 12px;
+            line-height: 16px;
+            color: #717171;
+            text-decoration: underline;
+            font-family: Circular;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      a {
+        //   width: 100%;
+        height: 48px;
+        padding: 0;
+        margin: 0;
+      }
+      .mini-form-btn {
+        background-image: radial-gradient(
+          circle at center,
+          #ff385c 0%,
+          #e61e4d 25%,
+          #e31c5f 50%,
+          #c4005b 75%,
+          #bd1e59 100%
+        );
+        //   height: 49px;
+        height: 100%;
+        margin: 0;
+        padding: 15px 20px 20px 15px;
+        font-size: 1rem;
+        color: white;
+        width: 100%;
+        border-radius: 10px;
+        background-size: 130% 130%;
+      }
+    }
+  }
+
+  @include for-details-mobile-layout {
+    .details-header {
+      justify-self: center;
+      padding-top: 15px;
+
+      .details-header-nav {
+        display: none;
+      }
+      .mini-form {
+        display: flex;
+        gap: 40px;
+      }
+    }
+  }
+  @include for-details-narrow-layout {
+    // display: none;
+  }
+  @include for-details-normal-layout {
+    display: block;
+  }
+}

@@ -1,0 +1,24 @@
+.map-container {
+  padding: 40px 0;
+  margin-bottom: 40px;
+  h2 {
+    font-size: 22px;
+    line-height: 26px;
+    font-family: Circular;
+    color: #222222;
+  }
+  .stay-map {
+    position: relative;
+    height: 500px;
+    margin: 0;
+    padding: 15px 0;
+    width: 100%;
+
+    h3 {
+      font-size: 16px;
+      line-height: 22px;
+      font-family: Circular-light;
+      color: #222222;
+    }
+  }
+}
